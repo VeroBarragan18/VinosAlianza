@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Archivos css -->
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+   <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <!-- Titulo de pagina -->
+    <title>Vinos Alianza</title>
+</head>
+<body>
+    <header class="encabezado contenedor">
+        <div class="imgContenedorTit">
+            <img src="vinosalianza/img/logo-alianza-plata.png"  class="imgEncabezado" >
+        </div>
+        
+        <!-- menu y barra de buscar -->
+
+        <div class="nvaContenedor">
+            <div class="buscar">
+                <input type="Search" placeholder="      Buscar..." required/>
+            </div>
+            <div class="navegador">
+                <a href="#">Vinos</a>
+                <a href="#">Destilados</a>
+                <a href="#">Acompañamientos</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Premium</a>
+                <a href="#">Marcas</a>
+            </div>
+        </div>
+       
+        <!-- botones de acciones -->
+
+        <div class="btnContenedor">
+            <div class="pedidos">
+                <div class="perfil">Mis pedidos</div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="7" r="4" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                  </svg>
+                </div>
+            
+
+            <div class="carrito">
+                <div class="perfil">Mi carrito</div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="6" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M6 5l14 1l-1 7h-13" />
+                  </svg>
+            </div>
+            <nav>
+                <span id="open-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                      </svg>
+                </span>
+            </nav>  
+            <aside id="aside">
+                <div class="container-svg">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                        <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                        <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                      </svg>
+                    <span>Vinos</span></div>
+                    <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                        <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                        <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                      </svg>
+                    <span>Destilados</span></div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                            <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                            <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                          </svg>
+                          <span>Acompañamientos</span></div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                            <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                            <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                          </svg><span> Ofertas</span></div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                            <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                            <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                          </svg><span>Premium</span></div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bottle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
+                            <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
+                            <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+                          </svg><span>Marcas</span></div>
+                </div>
+            </aside>   
+               
+                
+
+       </div>
+              
+              </div>
+            </div>
+            </header>
+        </div>
+           <!-- <div class="hamburguesa">
+                <button class="menu"></button>
+                <svg class="svg"xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                  </svg>
+                </div>
+                <nav class="enlaces activo">
+                    <li class="li"><a href="#" class="b">Vinos</a></li>
+                    <li class="li"><a href="#" class="b">Destilados</a></li>
+                    <li class="li"><a href="#" class="b">Acompañamientos</a></li>
+                    <li class="li"><a href="#" class="b">Ofertas</a></li>
+                    <li class="li"><a href="#" class="b">Premium</a></li>
+                    <li class="li"><a href="#" class="b">Marcas</a></li>
+                </nav>
+        </div>!-->
+    </header>
+    <!--ofertas temporales-->
+    <div class="slider">
+        <ul>
+            <li><img src="/vinosalianza/img/ofertas_1.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_2.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_3.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_4.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_5.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_6.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_7.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_8.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_9.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_10.png"></li>
+            <li><img src="/vinosalianza/img/ofertas_11.png"></li>
+        </ul>
+    </div>
+    <!-- Lista de productos -->
+
+    <section class="Contenedor">
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/1971-2.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+            <div class="letra">
+                <p>Whisky The Glenlivet 12 Años 750ml</p>
+                <div  class="Tachado">
+                <p>$1,195.00</p>
+                </div>
+                <div class="rojo">
+                    <p>$1,090.00</p>
+                </div>
+            </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/25853_2.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Whisky Buchanans 12 Años 1L</p>
+                <div  class="Tachado">
+                <p>$1,195.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$956.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/1984-1.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+
+            <div class="letra">
+                <p>Whisky  Black & White 1L</p>
+                <div  class="Tachado">
+                <p>$335.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$268.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/33162-2.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Whisky Chivas Regal Extra 13 Años Tequila 750ml</p>
+                <div  class="Tachado">
+                <p>$845.00</p>
+            </div>
+            <div class="rojo">
+                    <p>676.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/33683-2.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Whisky Chivas Regal Extra 13A sherry 750ml</p>
+                <div  class="Tachado">
+                <p>$845.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$676.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/1943-2.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+
+            <div class="letra">
+                <p>Whisky Chivas Regal 12 Años 750ml</p>
+                <div  class="Tachado">
+                <p>$714.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$571.20</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/31302-2.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Whisky Ballantines Finest 700ml</p>
+                <div  class="Tachado">
+                <p>$235.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$188.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/2023-1.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+
+            <div class="letra">
+                <p>Whisky Passport 700ml</p>
+                <div  class="Tachado">
+                <p>$195.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$156.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/30107-1.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+
+            <div class="letra">
+                <p>Whisky Black Zebra 1.5L</p>
+                <div  class="Tachado">
+                <p>$298.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$238.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/35548-1.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Licor Mc Andrews Green Apple 750ml</p>
+                <div  class="Tachado">
+                <p>$185.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$148.00</p>
+                </div>
+                <div class="boton" a href="#">Ver más</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/JACK-DANIELS-APPLE-1.webp" class="imgProducto">
+                <a href="#" class="lnkCarrito">20% OFF</a>
+            </div>
+
+            <div class="letra">
+                <p>Jack Daniels Apple 700ml</p>
+                <div  class="Tachado">
+                <p>$465.00</p>
+            </div>
+                <div class="rojo">
+                    <p>$372.00</p>
+                </div>
+                    <div class="boton" a href="#">Ver más</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="Productos">
+            <div class="ContenedorImg">
+                <img src="vinosalianza/img/productos/22178-1.webp" class="imgProducto">
+            </div>
+
+            <div class="letra">
+                <p>Jack Daniels Honey 700ml</p>
+                <div  class="Tachado">
+                <p>$465.00</p>
+            </div>
+            <div class="rojo">
+                    <p>$372.00</p>
+                </div>
+                    <div class="boton" a href="#">Ver más</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="JS/javaScript.js"></script>
+</body>
+</html>

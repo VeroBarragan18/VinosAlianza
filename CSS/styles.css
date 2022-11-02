@@ -1,0 +1,271 @@
+/**básicos**/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+/* Diseño de encabezado */
+
+header
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #270f2b;
+}
+
+
+
+/* Contenedor de productos */
+
+.Contenedor
+{
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+ 
+}
+
+/* Diseño de imagenes */
+
+.Productos .imgProducto
+{
+    width: 100%;
+    border: 1px solid rgb(109, 107, 107);
+}
+
+.Productos .ContenedorImg
+{
+    position: relative;
+    z-index:  1 ;
+}
+
+.Productos .lnkCarrito
+{
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    border-radius: none;
+    color: cornsilk;
+    background-color: #B81A18;
+    text-decoration: none;
+    font-weight: bold;
+}
+/**titulos de ventas**/
+ .letra{
+    color:#270f2b;
+    font-weight: bold;
+ }
+ .Tachado{
+    color:#270f2b;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .rojo{
+    color:red;
+    font-weight: bold;
+ }
+ .boton{
+    background-color:#270f2b;
+    color:#FFFFFF;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    align-self: center;
+    width: 140px;
+    height:40px;
+    float:right;
+ }
+/**Menu arriba**/
+
+.perfil{
+    color:#FFFFFF;
+    font-size: 12px;
+}
+.btnContenedor{
+   display:flex;
+   margin:30px;
+}
+.pedidos{
+    display:flex;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.carrito{
+    display:flex;
+    cursor: pointer;
+}
+
+.imgEncabezado{
+    margin-left: 40px;
+    width:20rem; 
+}
+.navegador{
+    display:flex;
+    margin-top:18px;
+    margin-bottom: 10px;
+    margin-left: none;
+    font-weight:bold;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+
+a{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+a:hover{
+    color:#2D7B1A;
+}
+/**imágenes cambiantes**/
+.slider{
+    width:100%;
+    overflow: hidden;
+}
+.slider ul{
+padding:0;
+display:flex;
+width:1100%;
+animation: cambio 4s infinite alternate;
+}
+.slider li{
+    list-style: none;
+    width:100%;
+}
+.slider img{
+    width:100%;
+}
+@keyframes cambio {
+    0%{
+        margin-left:0;
+    }
+    20%{
+        margin-left:0;
+    }
+    25%{
+        margin-left:-50%;
+    }
+    45%{
+        margin-left:-50%;
+    }
+    50%{
+        margin-left:-100%;
+    }
+    70%{
+        margin-left:-100%;
+    }
+    75%{
+        margin-left:-200%;
+    }
+    100%{
+        margin-left:-200%;
+    }
+}
+
+/**buscador**/
+.buscar input{
+    width: 90%;
+    height: 3.5rem;
+    padding: 0rem;
+    font-size: 1.8rem;
+    color: var(--oscuro);
+    font-weight: normal;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 30px;
+}
+.buscar ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;;
+}
+.menu{
+    margin-left:30px;
+    cursor:pointer;
+}
+/**hamburguesa**/
+nav{
+display:flex;
+align-items:center;
+width:100%;
+
+margin-right: 80px;;
+background-color:#270f2b;
+border-bottom:1px solid #270f2b;
+
+
+}
+nav span i{
+color:#FFFFFF;
+font-size:2.7rem;
+cursor: pointer;
+}
+aside{
+    background-color: #270f2b;
+    width:260px;
+    position:absolute;z-index: 2;
+    top:0;
+    left:0;
+    bottom:0;
+    overflow-y:hidden;
+    margin-top:102px;
+    transition:0.5s;
+}
+aside:hover{
+    overflow-y:auto;
+}
+.desplegar{
+    transform:translateX(-100%);
+}
+aside::-webkit-scrollbar{
+    width:8px;
+}
+aside::-webkit-scrollbar-thumb{
+background-color:#270f2b;
+border-radius:5px;
+}
+.container-svg{
+    border-bottom:1px solid #270f2b;
+    padding:10px 1px;
+    color:white;
+}
+.container-svg div{
+    display:flex;
+    align-items:center;
+    width:100%;
+    padding:10px 20px;
+    cursor:pointer;
+}
+.container-svg div:hover{
+    background-color:#920994;
+    
+}
+.container-svg div span{
+    margin-left:15px;
+    font-size: 1.5rem;
+    font-weight:500;
+}
+
+
